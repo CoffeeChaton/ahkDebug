@@ -1,0 +1,79 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "dprint.dprint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "dprint.dprint"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "dprint.dprint"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "dprint.dprint"
+    },
+    "[rust]": {
+        "editor.defaultFormatter": "dprint.dprint"
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "dprint.dprint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dprint.dprint"
+    },
+    "cSpell.enableFiletypes": [
+        "ahk",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "html",
+        "ini",
+        "javascript",
+        "javascriptreact",
+        "julia",
+        "juliamarkdown",
+        "latex",
+        "markdown",
+        "python",
+        "restructuredtext",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+        "addMissingImports": true,
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "dprint.dprint",
+    "eslint.enable": true,
+    "eslint.options": {
+        "extensions": [
+            ".ts"
+        ]
+    },
+    "eslint.packageManager": "pnpm",
+    "eslint.probe": [
+        "typescript"
+    ],
+    "files.associations": {
+        ".eslintrc.json": "jsonc",
+        "ahk.configuration.json": "jsonc",
+        "dprint.json": "jsonc",
+        "extensions.json": "jsonc",
+        "settings.json": "jsonc",
+        "tsconfig.json": "jsonc"
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:nekoHelp}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+    "workbench.localHistory.enabled": false
+}

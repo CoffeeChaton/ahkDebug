@@ -1,0 +1,14 @@
+*.cpuprofile
+*.heapprofile
+*.heapsnapshot
+.VSCodeCounter/
+.dccache
+.eslintcache
+.history/
+.idea/
+.vscode-test/
+coverage/
+dict/
+esbuildTarget.json
+node_modules/
+out/
