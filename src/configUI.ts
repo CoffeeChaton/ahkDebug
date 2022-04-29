@@ -26,7 +26,7 @@ function checkDebugFile(executePath: string): void {
 }
 
 // --------
-let Configs: vscode.WorkspaceConfiguration = vscode.workspace.getConfiguration('AhkNekoHelp');
+let Configs: vscode.WorkspaceConfiguration = vscode.workspace.getConfiguration('AhkNekoHelpDebug');
 
 function checkConfig<T>(section: string): T {
     const ed: T | undefined = Configs.get<T>(section);
@@ -47,7 +47,7 @@ function getConfig(): TConfigs {
 let config: TConfigs = getConfig();
 
 export function configChangEvent(): void {
-    Configs = vscode.workspace.getConfiguration('AhkNekoHelp');
+    Configs = vscode.workspace.getConfiguration('AhkNekoHelpDebug');
     config = getConfig();
 }
 

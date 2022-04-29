@@ -40,7 +40,6 @@
             {
                 "type": "ahk",
                 "label": "AutoHotkey",
-                "program": "./out/debugEntrance.js",
                 "runtime": "\"C:\\Program Files\\AutoHotkey\\AutoHotkeyU64.exe\"",
                 "configurationAttributes": {
                     "launch": {
@@ -113,9 +112,9 @@
         ],
         "configuration": {
             "type": "object",
-            "title": "AhkNekoHelp",
+            "title": "AhkNekoHelpDebug",
             "properties": {
-                "AhkNekoHelp.Debug.executePath": {
+                "AhkNekoHelpDebug.Debug.executePath": {
                     "type": "string",
                     "default": "C:/Program Files/AutoHotkey/AutoHotkeyU64.exe",
                     "description": "Execute path of autohotkey."
